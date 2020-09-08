@@ -3,3 +3,4 @@ class AddIntroductionToUsers < ActiveRecord::Migration[5.2]
     add_column :users, :introduction, :text
   end
 end
+
